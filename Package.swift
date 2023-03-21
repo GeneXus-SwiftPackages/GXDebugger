@@ -18,15 +18,15 @@ let package = Package(
 		.target(name: "GXDebuggerWrapper",
 				dependencies: [
 					"GXDebugger",
-					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.iOS, .tvOS])),
-					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.iOS, .tvOS, .watchOS])),
-					.product(name: "GXDataLayer", package: "GXDataLayer", condition: .when(platforms: [.iOS, .tvOS]))
+					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.tvOS, .iOS])),
+					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.tvOS, .iOS, .watchOS])),
+					.product(name: "GXDataLayer", package: "GXDataLayer", condition: .when(platforms: [.tvOS, .iOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXDebugger",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXDebugger-1.0.0-beta+20230316174639.xcframework.zip",
-			checksum: "0718ae30c34148a700015d85213a122453885375f392f38ebc3d006ac4be2511"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXDebugger-1.0.0-beta+20230321182636.xcframework.zip",
+			checksum: "a2a7eeb136ea18453b1eeedd88ff9c8b27bf9fe8c262fb5431fb18fd5b945e53"
 		)
 	]
 )
