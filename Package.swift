@@ -25,8 +25,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXDebugger",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXDebugger-1.0.0-beta+20230328171001.xcframework.zip",
-			checksum: "0b374f4a855c96ee4d7bdf3cce812affe345da6138a02abffacdf60e914d1ada"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXDebugger-1.0.0-beta+20230330152753.xcframework.zip",
+			checksum: "8ead03aa48f62c2bd4fba9297f99234371bc8178d2ae3b5c32462f24872d8cb7"
 		)
 	]
 )
