@@ -10,9 +10,9 @@ let package = Package(
 			targets: ["GXDebuggerWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "1.0.0-beta.20230616185027"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.0.0-beta.20230616185027"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXDataLayer.git", exact: "1.0.0-beta.20230616185027")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "1.0.0-beta.20230617144628"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.0.0-beta.20230617144628"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXDataLayer.git", exact: "1.0.0-beta.20230617144628")
 	],
 	targets: [
 		.target(name: "GXDebuggerWrapper",
@@ -25,8 +25,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXDebugger",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXDebugger-1.0.0-beta.20230616185027.xcframework.zip",
-			checksum: "ffc0f05bfee31b64e037bd6faffbb7900029871958185f977fec3188f641c08c"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXDebugger-1.0.0-beta.20230617144628.xcframework.zip",
+			checksum: "575880cb9c73728849a9c40b66cbbecd7903bf7f96033c3c2520f8b82887e151"
 		)
 	]
 )
